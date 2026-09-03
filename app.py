@@ -15,10 +15,7 @@ st.write("""
         """)
 
 # Upload do CSV
-arquivo = st.file_uploader(
-    "Envie um arquivo CSV",
-    type=["csv"]
-)
+arquivo = "Rendimento_Trabalho_Brasil_2012_2025.csv"
 
 if arquivo is not None:
 
